@@ -1,5 +1,5 @@
 body {
-    margin: 60px auto;
+    margin: 80px auto;
     width: 70%;
 }
 nav ul, footer ul {
@@ -22,12 +22,12 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    display: inline-block;
 }
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
+    font-size: 1.2em;
+    line-height: 1.3em;
     color: #333;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -43,7 +43,13 @@ ul.posts li {
     list-style: none;
 }
 .img-circle {
-    border-radius: 15%;
+    border-radius: 5%;
     width:200px;
     height:300px;
+    float:right;
+    margin-left: 50px;
+}
+
+.container {
+    margin-bottom: 100px;
 }
